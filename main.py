@@ -10,7 +10,7 @@ def say_hi():
 
 @app.route("/bye", methods=["GET"])
 def say_bye():
-    return "Пока"
+    return "Пока."
 
 
 if __name__ == "__main__":
